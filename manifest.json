@@ -1,0 +1,29 @@
+{
+  "manifest_version": 2,
+  "name": "History Purge",
+  "version": "0.1",
+  
+/*  "default_locale": "en",*/
+  "description": "Purge your history of an entire domain",
+  "icons": {
+    "16":  "/src/img/iconcubegreen-16-17060.png",
+    "32":  "/src/img/iconcubegreen-32-17060.png",
+    "64":  "/src/img/iconcubegreen-64-17060.png",
+    "144": "/src/img/iconcubegreen-144-17060.png"
+  },
+
+  "browser_action": {
+    "default_icon": {
+      "16":  "/src/img/iconcubegreen-16-17060.png",
+      "32":  "/src/img/iconcubegreen-32-17060.png",
+      "64":  "/src/img/iconcubegreen-64-17060.png",
+      "144": "/src/img/iconcubegreen-144-17060.png"
+    },
+    "default_title": "Let's Purge!",
+    "default_popup": "/src/popup.html"
+  },
+
+  "permissions": [
+    "history"
+  ]
+}
