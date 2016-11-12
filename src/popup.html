@@ -1,20 +1,21 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>History Purge</title>
-		<link href="/src/css/purge.css" rel="stylesheet" />
-		<script src="/src/js/purge.js"></script>
+    <title>Purge History</title>
+    <link href="/src/css/purge.css" rel="stylesheet" />
+    <script src="/src/js/purge.js"></script>
   </head>
   <body>
-    <h1>Hello World</h1>
-		<form>
-			<div>
-				<label>Domain</label>
-				<input name="domain" id="input-domain" type="text" value="" />
-			</div>
-			<div>
-				<input id="submit-purge" type="submit" value="Purge!" />
-			</div>
-		</form>
+    <h1>Purge History</h1>
+    <p>Purge all URLs for a specific domain from your Chrome history</p>
+    <form>
+      <div>
+        <label>Domain</label>
+        <input type="text" name="domain" id="input-domain" value="" />
+      </div>
+      <div>
+        <input type="submit" id="submit-purge" value="Purge!" />
+      </div>
+    </form>
   </body>
 </html>
